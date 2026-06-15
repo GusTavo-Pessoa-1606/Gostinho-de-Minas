@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <a href="index.html"><img src="img/GM-logo.png" alt="Logo" width="100%" height="100%"></a>
+            </div>
+            <div class="header-text">
+                <h1>Sabor caseiro feito com carinho</h1>
+                <p>Vamos experimentar?</p>
+            </div>
+        </header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">HOME</a></li>
+                <li class="separador">|</li>
+                <li><a href="produtos.html">PRODUTOS</a></li>
+                <li class="separador">|</li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li class="separador">|</li>
+                <li><a href="ondeAtuamos.html">ONDE ATUAMOS</a></li>
+                <li class="separador">|</li>
+                <li><a href="sobreMim.html">SOBRE</a></li>
+            </ul>
+        </nav>
+        <div class="banner-produtos">
+            <img src="img/banner-produtos.png" alt="" width="100%" height="100%">
+        </div>
+        <main>
+            <section class="produtos-intro reveal">
+                <h1>Nossos Produtos</h1>
+                <p>Feitos artesanalmente com ingredientes selecionados e muito carinho.</p>
+            </section>
+            <section class="categorias reveal">
+                <div class="categoria active" data-filter="todos">
+                    <img src="img/menu-todos.png" alt="Todos">
+                    <span>Todos</span>
+                </div>
+
+                <div class="categoria" data-filter="pao">
+                    <img src="img/menu-paoQ.jpg" alt="Pães de queijo">
+                    <span>Pães de Queijo</span>
+                </div>
+
+                <div class="categoria" data-filter="bolo">
+                    <img src="img/menu-bolo.jpg" alt="Bolos">
+                    <span>Bolos</span>
+                </div>
+            </section>
+
+            <h2 class="titulo-categoria reveal">Todos os produtos</h2>
+
+            <section class="grid-produtos">
+
+
+                <div class="card produto pao reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/pãoQT.jpg">
+                            <h3>Pão de Queijo Tradicional</h3>
+                            <p>R$ 44,00/kg </p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Polvilho, queijo minas, leite, ovos, óleo.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto bolo reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bolo-choconinho.jpg">
+                            <h3>Bolo de Choconinho</h3>
+                            <p>R$ 20,00</p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Chocolate, leite, leite condensado, farinha, ovos.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto bolo reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bolo-banana.jpg">
+                            <h3>Bolo de Banana (sem farinha / sem açúcar)</h3>
+                            <p>R$ 20,00</p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Banana, ovos, aveia (opcional), canela.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto pao reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/pãoQC.jpg">
+                            <h3>Pão de Queijo Tradicional Coquetel</h3>
+                            <p>R$ 44,00/kg </p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Polvilho, queijo, leite, ovos, manteiga.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto pao reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/pãoQG.jpg">
+                            <h3>Pão de Queijo Recheado com Goiabada</h3>
+                            <p>R$ 44,00/kg </p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Polvilho, queijo, goiabada, leite, ovos.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto bolo reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bolo-laranja.jpeg">
+                            <h3>Bolo de Laranja</h3>
+                            <p>R$ 20,00</p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Farinha, ovos, laranja, açúcar, óleo.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto pao reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/pãoQCalabresa.jpg">
+                            <h3>Pão de Queijo Recheado com Calabresa</h3>
+                            <p>R$ 44,00/kg </p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Polvilho, queijo, calabresa, leite, ovos, salsa, cebolinha verde.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto pao reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/pãoQGorg.jpg">
+                            <h3>Pão de Queijo Gorgonzola</h3>
+                            <p>R$ 50,00/kg </p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Polvilho, queijo gorgonzola, leite, ovos.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto bolo reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bolo-limao.jpeg">
+                            <h3>Bolo de Limão</h3>
+                            <p>R$ 20,00</p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Farinha, ovos, açúcar, limão, leite.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto bolo reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bolo-chocolate.jpg">
+                            <h3>Bolo de Chocolate</h3>
+                            <p>R$ 20,00</p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Farinha, chocolate, ovos, leite, açúcar.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card produto bolo reveal">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="img/bolo-cenoura.jpeg">
+                            <h3>Bolo de Cenoura</h3>
+                            <p>R$ 20,00</p>
+                            <button class="btn-info">Ingredientes</button>
+                            <a class="btn-whats" href="https://wa.me/5561992564766" target="_blank">Pedir</a>
+                        </div>
+                        <div class="card-back">
+                            <h3>Ingredientes</h3>
+                            <p>Farinha, chocolate, ovos, leite, açúcar, cenoura.</p>
+                            <button class="btn-info voltar">Voltar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="mensagem-final-produtos reveal">
+                <h2>Feito com carinho em cada detalhe 💛</h2>
+
+                <p>
+                    Nossos produtos são preparados com tradição, qualidade e aquele sabor caseiro
+                    que lembra Minas Gerais. Escolha o seu favorito e peça agora mesmo!
+                </p>
+
+                <a class="btn-final-produtos" href="https://wa.me/5561992564766" target="_blank">
+                    Pedir pelo WhatsApp
+                </a>
+            </section>
+
+        </main>
+        <footer>
+            <div class="footer-redes">
+                <a href="tel:+5561992564766" class="icone-social" target="_blank">
+                    <img src="img/telefone.png" alt="Telefone">
+                </a>
+                <a href="https://wa.me/5561992564766" class="icone-social" target="_blank">
+                    <img src="img/whatsapp.png" alt="WhatsApp">
+                </a>
+            </div>
+            <div class="footer-logo">
+                <a href="index.html"><img src="img/GM-logo.png" alt="Gostinho de Minas"></a>
+            </div>
+            <div class="footer-info">
+                <h3>Horário de Atendimento</h3>
+                <p>
+                    Segunda-feira, Terça-feira, Quinta-feira e Sábado das 7:00h até 13:00h
+                </p>
+                <p>
+                    Quarta-feira e Sexta-feira das 7:00h ate 12:00h
+                </p>
+            </div>
+            <div class="footer-frase">
+                <p>
+                    Pães de queijo e bolos preparados com carinho para tornar seus momentos ainda mais especiais.
+                </p>
+            </div>
+
+            <div class="footer-baixo">
+                © 2026 Gustavo Correia Da Costa Pessoa Martins. Todos os direitos reservados.
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
